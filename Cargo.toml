@@ -7,11 +7,11 @@ build = "build.rs"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [build-dependencies]
-cpp_build = "*"
-pkg-config = "*"
+cpp_build = "0.5"
+pkg-config = "0.3"
 
 [dependencies]
-qmetaobject = "*"
-gst = { package = "gstreamer", version = "*" }
-cpp = "*"
-cstr = "*"
+qmetaobject = "0.2"
+gst = { package = "gstreamer", version = "0.18" }
+cpp = "0.5"
+cstr = "0.2"
